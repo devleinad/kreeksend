@@ -141,9 +141,9 @@
     color: #fff;
 }
 .top__container{
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
     padding-bottom: 70px;
     /* background-image: url('../images/prepo_bg.jpg');
     background-size: cover; */
@@ -159,21 +159,30 @@
 .top__content{
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-column-gap: 1.5rem;
 }
 
-.left__side__top h1{
-    font-size: 38px;
+.left__side__top .ml2{
+    font-size: 50px;
     color: #384257;
-    line-height: 44px;
-    margin-bottom: 20px;
+    color: #ee7425;
+    margin-left: unset !important;
 }
 
-.right__side__top img{
-    width: 100%;
+.left__side__top .static{
+    font-size: 30px;
+    color: #384257;
+}
+
+.right__side__top svg{
+    width: 600px;
+    position: relative;
+    bottom: 10px;
+    
 }
 
 .left__side__top .trial-box .form-control{
-    padding: 30px;
+    padding: 40px;
 }
 
 
@@ -326,7 +335,7 @@
  /* Pricing */
     
  .pricing__container{
-    padding-top: 80px;
+    padding-top: 30px;
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom:70px;
@@ -440,15 +449,15 @@
 
 .pricing__package__compare .btn-lg{
     padding: 12px 15px 12px 15px;
-    color: #000;
+    color: #fff;
     font-weight: bold;
-    background-color: #F2F527;
+    background-color: #ee7425;
     border-radius: 30px;
     font-size: 20px;
 }
 .pricing__package__compare .btn-lg:hover{
-    background-color: #000;
-    color: #F2F527;
+    background-color: #3097B8;
+    color: #fff;
 }
 
 /* Benefits */
@@ -648,6 +657,33 @@
     width: 100%;
 }
 
+
+/* contact__sales */
+
+
+
+.contact__sales__box .contact__sales__top{
+    background-image: url('../images/contact__sales.jpg');
+    background-size: cover;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+  
+   
+}  
+
+.contact__sales__box .contact__sales__top .contact__sales__top__header{
+    padding-top: 200px;
+    padding-right: 150px;
+    padding-left:150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.contact__sales__top h2{
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+}
 
 
 
@@ -1139,6 +1175,36 @@
 .start__trial .start__trial__content .start__trial__form__box #start-trial-btn{
     font-size: 16px !important;
 }
+
+/* contact__sales */
+.contact__sales__box{
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.contact__sales__box .contact__sales__top{
+    background-image: url('../images/contact__sales.jpg');
+    background-size: contain !important;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+  
+   
+} 
+
+.contact__sales__box .contact__sales__top .contact__sales__top__header{
+    padding-top: 10px !important;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.contact__sales__top h2{
+    color: #000;
+    font-size: 30px;
+    font-weight: 450;
+}
+
     
     
     
@@ -1628,6 +1694,22 @@
     padding-bottom: 50px;
 }
 
+/* contact__sales */
+
+
+.contact__sales__box .contact__sales__top .contact__sales__top__header{
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-left:150px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.contact__sales__top h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 450;
+}
 
 
 
