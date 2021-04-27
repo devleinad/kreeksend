@@ -1198,7 +1198,7 @@
 }
 .contact__sales__box .contact__sales__top{
     background-image: url('../images/contact__sales.jpg');
-    background-size: contain !important;
+    background-size: cover !important;
     padding-bottom: 10px;
     background-repeat: no-repeat;
     padding-top: 10px;
@@ -1215,7 +1215,7 @@
 }
 
 .contact__sales__top h2{
-    color: #000;
+    color: #fff;
     font-size: 30px;
     font-weight: 450;
 }
