@@ -277,7 +277,7 @@
     
 }
 
-.kreeksend_partners .heading__text h2{
+.heading__text h2{
     font-size:28px !important;
     text-align: center;
     text-transform: uppercase;
@@ -354,7 +354,7 @@
     padding-top: 150px;
 }
 
-.pricing__container .heading__text h2{
+.heading__text h2{
     font-size: 40px;
     color: #000;
     font-weight: unset !important;
@@ -430,7 +430,7 @@
 
 .dollar__sign{
     position: relative;
-    top: -50px;
+    top: -30px;
 }
 
 .package__fee{
@@ -462,6 +462,7 @@
     background-color: #ee7425;
     border-radius: 30px;
     font-size: 20px;
+    margin-top: 30px;
 }
 .pricing__package__compare .btn-lg:hover{
     background-color: #3097B8;
@@ -736,7 +737,6 @@
     outline: none;
     border:none;
     background-color:#F8FAFB;
-    border: 1px solid #ebe9ee;
     /* border-radius: 30px; */
 }
 
@@ -764,6 +764,106 @@
 .contact__sales__form__box .form__box form .form-group .btn:hover{
     background-color: #4F668D;
 }
+
+/* About */
+.about__section{
+    padding-top: 150px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+
+
+.about__section .about__main__content .page__header h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.about__section .about__main__content  p{
+    font-size: 17px;
+    line-height: 30px;
+}
+.about__section .about__main__content  p:first-of-type{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.about__section .about__main__content  p:nth-of-type(3){
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+
+.grid__patners__box{
+    position: relative;
+    top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.grid__patners__box ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.grid__patners__box ul li .kreekafrica img{
+    width: 200px;
+}
+
+.grid__patners__box ul li .workshed img{
+    width: 250px;
+    position: relative;
+    bottom: 15px;
+}
+
+.grid__patners__box ul li .tekedia img{
+    width: 220px;
+    position: relative;
+    bottom: 40px;
+}
+
+.grid__patners__box ul li .smart_solutions img{
+    width: 220px;
+    position: relative;
+}
+.grid__patners__box ul li .cropyfy img{
+    width: 130px;
+    position: relative;
+    bottom: 30px;
+    margin-left:40px;
+}
+
+.grid__patners__box ul li .oilet img{
+    width: 170px;
+    position: relative;
+    bottom: 25px;
+    margin-left:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -849,7 +949,6 @@
         margin-left: 10px;
     }
     
-
     .header .navbar .navbar-brand img{
         width: 50%;
     }
@@ -919,6 +1018,8 @@
     .prepo__img figure img{
         width: 250px !important;
     }
+
+  
 
     /* #connect{
         width: 250px !important;
@@ -1020,7 +1121,7 @@
         /* background-color: #F8FAFB; */
     }
   
-    .kreeksend_partners .heading__text h2{
+    .heading__text h2{
         font-size:23px !important;
         text-transform: uppercase;
         text-align: center !important;
@@ -1093,16 +1194,16 @@
     /* Pricing */
     
     .pricing__container{
-        padding-top: 30px;
+        padding-top: 130px;
         padding-left: 3px;
         padding-right: 3px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
  
     .plans{
         padding-top: 150px !important;
     }
-    .pricing__container .heading__text h2{
+    .heading__text h2{
         font-size: 30px;
         font-weight: bolder;
         text-align: unset !important;
@@ -1144,9 +1245,19 @@
         font-size: 14px;
     }
 
+    
+.pricing__package__compare .btn-lg{
+    padding: 10px 12px 10px 12px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ee7425;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-top: 0px;
+}
     .dollar__sign{
         position: relative;
-        top: -30px !important;
+        top: -27px !important;
     }
 
     .pricing__package__compare{
@@ -1200,9 +1311,9 @@
 }  
 
 .campaigns__box .campaigns__top .campaigns__top__header{
-    padding-top: 60px;
-    padding-right: 20px !important;
-    padding-left:20px !important;
+    padding-top: 0px;
+    padding-right: 10px !important;
+    padding-left:10px !important;
     text-align: center;
 }
 
@@ -1213,7 +1324,7 @@
 
 .campaigns__box .campaigns__top .campaigns__top__header p{
     color: #fff;
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 10px;
 }
 
@@ -1354,11 +1465,12 @@
 }
 
 .start__trial .start__trial__content .start__trial__form__box .form-control{
-    padding: 30px;
+    padding: 25px 15px 25px 10px;
+    font-size: 15px !important;
 }
 
 .start__trial .start__trial__content .start__trial__form__box #start-trial-btn{
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 
@@ -1372,7 +1484,7 @@
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
     background-color: #4F668D;
-    margin-bottom: 50px;
+    margin-bottom: 0px !important;
     opacity: 0.8;
 }
 
@@ -1432,7 +1544,6 @@
     outline: none;
     border:none;
     background-color:#F8FAFB;
-    border: 1px solid #ebe9ee;
     /* border-radius: 30px; */
 }
 
@@ -1460,6 +1571,100 @@
 .contact__sales__form__box .form__box form .form-group .btn:hover{
     background-color: #4F668D;
 }
+
+/* About */
+.about__section{
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+
+
+.about__section .about__main__content .page__header h1{
+    font-size: 31px;
+    font-weight: normal;
+}
+
+.about__section .about__main__content  p{
+    font-size: 15px;
+    line-height: 30px;
+}
+.about__section .about__main__content  p:first-of-type{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.about__section .about__main__content  p:nth-of-type(3){
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+
+.grid__patners__box{
+    position: relative;
+    top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+.grid__patners__box .heading__text h2{
+    margin-bottom: 40px !important;
+}
+
+.grid__patners__box ul{
+    padding-left: 5px !important;
+    text-align: center !important;
+}
+.grid__patners__box ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.grid__patners__box ul li .kreekafrica img{
+    width: 120px !important;
+}
+
+.grid__patners__box ul li .workshed img{
+    width: 140px !important;
+    position: relative;
+    bottom: 10px;
+}
+
+.grid__patners__box ul li .tekedia img{
+    width: 140px !important;
+    position: relative;
+    bottom: 50px;
+}
+
+.grid__patners__box ul li .smart_solutions img{
+    width: 120px !important;
+    position: relative;
+}
+.grid__patners__box ul li .cropyfy img{
+    width: 90px !important;
+    position: relative;
+    bottom: 40px;
+    margin-left:0px !important;
+}
+
+.grid__patners__box ul li .oilet img{
+    width: 120px !important;
+    position: relative;
+    bottom: 25px;
+    margin-left:0px !important;
+}
+
+
+
 
     
     
@@ -1764,7 +1969,7 @@
     background-color: #F8FAFB;
 }
 
-.kreeksend_partners .heading__text h2{
+.heading__text h2{
     font-size:24px !important;
     text-transform: uppercase;
    
@@ -1837,7 +2042,7 @@
     padding-top: 150px !important;
 }
 
-.pricing__container .heading__text h2{
+.heading__text h2{
     font-size: 40px;
     color: #000;
     font-weight: unset !important;
@@ -1894,7 +2099,7 @@
 
 .dollar__sign{
     position: relative;
-    top: -50px;
+    top: -30px;
 }
 
 .package__fee{
@@ -1920,7 +2125,7 @@
     background-color: #ee7425;
     border-radius: 30px;
     font-size: 17px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .pricing__package__compare .btn-lg:hover{
     background-color: #3097B8;
@@ -2110,7 +2315,6 @@
     outline: none;
     border:none;
     background-color:#F8FAFB;
-    border: 1px solid #ebe9ee;
     /* border-radius: 30px; */
 }
 
@@ -2139,13 +2343,100 @@
     background-color: #4F668D;
 }
 
-  /* FOOTER */
-  .footer{
-    background-color: #F8FAFB;
-    padding: 70px 30px 50px 30px;
-    /* border-top: 1px solid #999; */
+
+/* About */
+.about__section{
+    padding-top: 150px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 50px;
+}
+
+
+
+.about__section .about__main__content .page__header h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.about__section .about__main__content  p{
+    font-size: 17px;
+    line-height: 30px;
+}
+.about__section .about__main__content  p:first-of-type{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.about__section .about__main__content  p:nth-of-type(3){
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+
+.grid__patners__box{
+    position: relative;
+    top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.grid__patners__box ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
+
+.grid__patners__box ul li .kreekafrica img{
+    width: 200px;
+}
+
+.grid__patners__box ul li .workshed img{
+    width: 250px;
+    position: relative;
+    bottom: 15px;
+}
+
+.grid__patners__box ul li .tekedia img{
+    width: 220px;
+    position: relative;
+    bottom: 40px;
+}
+
+.grid__patners__box ul li .smart_solutions img{
+    width: 220px;
+    position: relative;
+}
+.grid__patners__box ul li .cropyfy img{
+    width: 130px;
+    position: relative;
+    bottom: 35px;
+    margin-left:0px;
+}
+
+.grid__patners__box ul li .oilet img{
+    width: 170px;
+    position: relative;
+    bottom: 25px;
+    margin-right:20px !important;
+}
+
+
+
+    /* FOOTER */
+    .footer{
+        background-color: #F8FAFB;
+        padding: 70px 30px 450px 30px;
+        /* border-top: 1px solid #999; */
+
+    }
 
 
 }
@@ -2160,13 +2451,28 @@
     .collapse .navbar-nav .nav-item {
         font-size: 12px;
         margin-right: 26px !important;
+        margin-bottom: 0px;
+
     }
+
+   
+    
     .top__container{
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 70px;
         padding-bottom: 30px;
-        
 }
+
+
+  /* FOOTER */
+  .footer{
+    background-color: #F8FAFB;
+    padding: 70px 30px 800px 30px;
+    /* border-top: 1px solid #999; */
+
+}
+
+
 
 }
