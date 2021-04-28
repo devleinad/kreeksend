@@ -674,7 +674,8 @@
 }
 
 .campaign__items .campaign__item .campaign__item__description p{
-    font-size: 15px;
+    font-size: 17px;
+    text-align: unset !important;
 }
 .campaign__items .campaign__item .campaign__image__box{
     margin-top: 40px;
