@@ -182,7 +182,8 @@
 }
 
 .left__side__top .trial-box .form-control{
-    padding: 40px;
+    padding: 30px;
+    border: none !important;
 }
 
 
@@ -200,7 +201,11 @@
 
 
 .prepo__container{
-    padding: 90px 70px 10px 70px;
+    padding: 90px 40px 10px 40px;
+}
+
+.first__prepo__container{
+    padding-top: 50px;
 }
 
 .prepo__content__inner{
@@ -208,8 +213,10 @@
 }
 
 .t-2{
-    margin-left: 90px !important;
     margin-bottom: 18px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
 }
 
 .prepo__content__inner{
@@ -226,7 +233,7 @@
 
 .prepo__main__content .prepo__title h2{
     margin-bottom: 24px;
-    font-size:26px !important;
+    font-size:28px !important;
     color: #000;
     font-weight: bolder;
 }
@@ -344,6 +351,7 @@
 .plans{
     background-image: url('../images/plans_banner.svg');
     background-size: cover;
+    padding-top: 150px;
 }
 
 .pricing__container .heading__text h2{
@@ -463,8 +471,8 @@
 /* Benefits */
 .benefits{
     padding-top: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom:70px;
 }
 
@@ -573,7 +581,8 @@
 .campaigns__box .campaigns__top{
     background-image: url('../images/campaign__banner.svg');
     background-size: cover;
-    padding-bottom: 60px;
+    padding-bottom: 200px;
+    padding-top: 80px;
    
 }  
 
@@ -586,7 +595,7 @@
 
 .campaigns__box .campaigns__top .campaigns__top__header h2{
     color: #fff;
-    font-size: 55px;
+    font-size: 65px;
 }
 
 .campaigns__box .campaigns__top .campaigns__top__header p{
@@ -660,33 +669,165 @@
 
 /* contact__sales */
 
-
-
-.contact__sales__box .contact__sales__top{
-    background-image: url('../images/contact__sales.jpg');
-    background-size: cover;
-    padding-bottom: 60px;
-    background-repeat: no-repeat;
-  
-   
-}  
-
-.contact__sales__box .contact__sales__top .contact__sales__top__header{
-    padding-top: 200px;
-    padding-right: 150px;
-    padding-left:150px;
-    padding-bottom: 150px;
-    text-align: center;
+.contact__sales__box{
+    padding-top: 1100px;
+    padding-bottom:200px;
+    /* background-image: url('../images/contact__sales.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-color: #4F668D;
+    margin-bottom: 100px;
+    opacity: 0.8;
 }
 
-.contact__sales__top h2{
-    color: #fff;
-    font-size: 55px;
+.contact__sales__grid__box{
+    position:absolute;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding-left: 100px;
+    padding-right: 100px;
+    position:absolute;
+    top: 140px;
+
+}
+
+.contact__sales__left{
+    padding: 10px;
+    margin-right: 30px;
+
+}
+
+
+.contact__sales__left .title__description h3{
+   font-size: 38px;
+   line-height: 40px;
+   font-weight:bold;
+   color: #fff;
+}
+
+.left__img__box{
+    margin-top: 60px;
+}
+
+.contact__sales__form__box .form__box{
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-left: 30px;
+
+}
+
+.contact__sales__form__box .form__box form {
+    padding: 10px;
+}
+.contact__sales__form__box .form__box form .form-group {
+    margin-bottom: 30px;
+}
+
+.contact__sales__form__box .form__box form .form-group .form-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.contact__sales__form__box .form__box form .form-group .form-control-input{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border:none;
+    background-color:#F8FAFB;
+    border: 1px solid #ebe9ee;
+    /* border-radius: 30px; */
+}
+
+.contact__sales__form__box .form__box form .form-group .form-label{
+    font-size: 16px;
     font-weight: bold;
 }
 
+.contact__sales__form__box form .form-group textarea{
+    /* border: 1px solid #000 !important; */
+    outline: none !important;
+    border: 1px solid #ebe9ee;
 
+}
 
+.contact__sales__form__box .form__box form .form-group .btn{
+    background-color: rgba(248, 119, 5, 1);
+    height: 60px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    /* border-radius: 50px; */
+}
+
+.contact__sales__form__box .form__box form .form-group .btn:hover{
+    background-color: #4F668D;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and(max-width:320px){
+    .prepo__img figure img{
+        width: 220px !important;
+    }
+
+    
+    /* #connect{
+        width: 230px !important;
+    }
+
+    #easy_transfer{
+        width: 230px !important;
+    }
+
+    #delivered{
+        width: 270px !important;
+    }
+
+    #templates{
+        width: 280px !important;
+    }
+
+    #drag_and_drop{
+        width: 270px !important;
+    }
+
+    #social_media{
+        width: 280px !important;
+    }
+
+    #personal_settings{
+        width: 280px !important;
+    }
+
+    #analytics{
+        width: 330px !important;
+    }
+
+    #no_stress{
+        width: 290px !important;
+    }
+
+    #community{
+        width: 200px !important;
+    }
+
+    #helpful{
+        width: 280px !important;
+    }
+
+    #progress{
+        width: 260px !important;
+    }
+
+    #live_center{
+        width: 290px !important;
+    } */
+    
+}
 
 
 
@@ -701,8 +842,6 @@
     .collapse{
     position: relative;
     bottom:0;
-    
-
     }
     
     .navbar-collapse .navbar-nav .nav-item{
@@ -718,8 +857,8 @@
 
     /* Top Content .top__content */
     .top__container{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         padding-bottom: 50px;
         padding-top: 130px;
  
@@ -778,14 +917,70 @@
 
     
     .prepo__img figure img{
-        width: 230px;
+        width: 250px !important;
     }
-    
+
+    /* #connect{
+        width: 250px !important;
+    }
+
+    #easy_transfer{
+        width: 280px !important;
+    }
+
+    #delivered{
+        width: 270px !important;
+    }
+
+    #templates{
+        width: 280px !important;
+    }
+
+    #drag_and_drop{
+        width: 270px !important;
+    }
+
+    #social_media{
+        width: 280px !important;
+    }
+
+    #personal_settings{
+        width: 280px !important;
+    }
+
+    #analytics{
+        width: 330px !important;
+    }
+
+    #no_stress{
+        width: 290px !important;
+    }
+
+    #community{
+        width: 200px !important;
+    }
+
+    #helpful{
+        width: 280px !important;
+    }
+
+    #progress{
+        width: 260px !important;
+    }
+
+    #live_center{
+        width: 290px !important;
+    }
+     */
     
     .t-2{
         margin-left: 0px !important;
         font-size: 24px !important;
         font-weight: bold;
+        text-align: unset;
+    }
+    .prepo__content__inner{
+        margin-bottom: 30px !important;
     }
     .prepo__main__content .prepo__title h2{
         margin-bottom: 14px;
@@ -794,49 +989,23 @@
         font-weight:bold;
     }
 
-    .prepo__title h3{
-        font-size: 22px;
-        font-weight: bold;
-    }
-
-
     .lead h3{
-        font-size: 18px !important;
+        color:#000;
+        font-weight: bold;
+        font-size: 21px;
     }
-    
+
+
     .prepo__main__content .prepo__p{
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .prepo__main__content .prepo__p p{
         color: #000;
-        font-size: 15px;
+        font-size: 16px;
           font-weight: unset !important;
           line-height: 28px;
     }
-    #analytics{
-        margin-top: 50px !important;
-    }
 
-    #no_stress{
-        margin-top: 50px !important;
-    }
-
-    #community{
-        width: 200px !important;
-    }
-
-    #helpful{
-        width: 250px !important;
-        margin-top: 50px !important;
-    }
-
-    #progress{
-        width: 200px !important;
-    }
-
-    #live_center{
-        margin-top: 50px !important;
-    }
 
 
     /* Kreeksend Partners */
@@ -929,10 +1098,10 @@
         padding-right: 3px;
         padding-bottom: 30px;
     }
+ 
     .plans{
-        padding-top: 50px;
+        padding-top: 150px !important;
     }
-
     .pricing__container .heading__text h2{
         font-size: 30px;
         font-weight: bolder;
@@ -1113,18 +1282,18 @@
 
     /* FOOTER */
     .footer{
-        padding: 10px 20px 200px 20px;
+        padding: 10px 10px 200px 10px;
         background-color: #F8FAFB;
     }
     .footer .footer__top{
-        padding: 20px 15px 50px 15px !important;
+        padding: 20px 10px 50px 10px !important;
         display: flex;
         flex-direction: column;
     }
 
     
     .footer__middle{
-        padding-left: 20px !important;
+        padding-left: 10px !important;
         padding-right: 0px !important;
         margin-top: 0px !important;
         position: relative;
@@ -1157,11 +1326,12 @@
          margin-top: 20px;
          margin-bottom: 20px;
          color: #000;
+        margin-left: 0px !important;
      }
     
      /* Start__trial */
 .start__trial{
-    padding: 120px 20px 50px 20px;
+    padding: 30px 20px 50px 20px;
     /* width: 100%; */
     /* background-color: #ee7425; */
 
@@ -1180,7 +1350,7 @@
 .start__trial .start__trial__content .start__trial__description h3{
     color: #fff;
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .start__trial .start__trial__content .start__trial__form__box .form-control{
@@ -1191,33 +1361,104 @@
     font-size: 16px !important;
 }
 
+
+
 /* contact__sales */
+
 .contact__sales__box{
-    padding-top: 100px;
-    padding-bottom: 10px;
-}
-.contact__sales__box .contact__sales__top{
-    background-image: url('../images/contact__sales.jpg');
-    background-size: cover !important;
-    padding-bottom: 10px;
-    background-repeat: no-repeat;
-    padding-top: 10px;
-  
-   
-} 
-
-.contact__sales__box .contact__sales__top .contact__sales__top__header{
-    padding-top: 10px !important;
-    padding-right: 20px;
-    padding-left:20px;
-    padding-bottom: 60px;
-    text-align: center;
+    padding-top: 1100px;
+    padding-bottom:600px;
+    /* background-image: url('../images/contact__sales.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-color: #4F668D;
+    margin-bottom: 50px;
+    opacity: 0.8;
 }
 
-.contact__sales__top h2{
+.contact__sales__grid__box{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    position:absolute;
+    top: 140px;
+
+}
+
+.contact__sales__left{
+    padding: 10px;
+    margin-right: 0px !important;
+
+}
+
+
+.contact__sales__left .title__description h3{
+   font-size: 26px;
+   line-height: unset !important;
+   font-weight:bold;
+   color: #fff;
+}
+
+.left__img__box{
+    margin-top: 60px;
+}
+
+.contact__sales__form__box .form__box{
+    margin-top: 70px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-left: 0px;
+
+}
+
+.contact__sales__form__box .form__box form {
+    padding: 10px;
+}
+.contact__sales__form__box .form__box form .form-group {
+    margin-bottom: 30px;
+}
+
+.contact__sales__form__box .form__box form .form-group .form-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.contact__sales__form__box .form__box form .form-group .form-control-input{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border:none;
+    background-color:#F8FAFB;
+    border: 1px solid #ebe9ee;
+    /* border-radius: 30px; */
+}
+
+.contact__sales__form__box .form__box form .form-group .form-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact__sales__form__box form .form-group textarea{
+    /* border: 1px solid #000 !important; */
+    outline: none !important;
+    border: 1px solid #ebe9ee;
+
+}
+
+.contact__sales__form__box .form__box form .form-group .btn{
+    background-color: rgba(248, 119, 5, 1);
+    height: 60px;
     color: #fff;
-    font-size: 30px;
-    font-weight: 450;
+    font-weight: bold;
+    border: none;
+    /* border-radius: 50px; */
+}
+
+.contact__sales__form__box .form__box form .form-group .btn:hover{
+    background-color: #4F668D;
 }
 
     
@@ -1236,6 +1477,11 @@
 @media (max-width:1024px) and (min-width:768px){
     /* #Navigation
 ================================================== */
+      
+.navbar-collapse .navbar-nav .nav-item{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
 
 .start-header {
 	/* opacity: 1; */
@@ -1322,7 +1568,7 @@
 	color: #212121 !important;
 	font-weight: 500;
     transition: all 200ms linear;
-    font-size: 14px;
+    font-size: 15px;
 
 }
 
@@ -1339,6 +1585,16 @@
 
 .dropdown-menu .dropdown-item{
     margin-bottom: 10px;
+}
+
+.navbar-collapse .navbar-nav .nav-item{
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+
+.header .navbar .navbar-brand img{
+    width: 50%;
 }
 
 .signin-btn{
@@ -1378,6 +1634,7 @@
 .top__content{
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem !important;
 }
 
 .left__side__top .ml2{
@@ -1400,39 +1657,88 @@
 }
 
 
-
 .prepo__container{
-    padding: 130px 20px 70px 20px;
+    padding: 80px 5px 70px 5px;
 }
-.prepo__content__inner{
-    margin-bottom: 60px !important;
+
+.first__prepo__container{
+    padding-top: 140px;
 }
+
+
+
 .t-2{
-    margin-left: 90px !important;
+    font-size: 29px;
     margin-bottom: 18px;
+    text-align: center;
 }
 
 .prepo__content__inner{
     padding: 10px;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
-.prepo__img figure img{
-    width: 300px;
+#community{
+    width: 250px !important;
+}
+/* 
+#community{
+    width: 250px !important;
+}
+
+#live_center{
+    width: 350px !important;
+}
+
+#analytics{
+    width: 370px !important;
+}
+
+#connect{
+    width:280px !important
+}
+
+#drag_and_drop{
+    width: 280px !important;
+}
+
+#easy_transfer{
+    width: 280px !important;
+}
+
+#delivered{
+    width: 280px !important;
+}
+
+#no_stress{
+    width: 370px !important;
+}
+
+#personal_settings{
+    width: 355px !important;
 }
 
 
+#helpful{
+    width: 370px !important;
+}
+
+#social_media{
+    width: 360px !important;
+} */
 
 .prepo__main__content .prepo__title h2{
-    margin-bottom: 24px;
+    margin-bottom: 22px;
     font-size:26px !important;
     color: #000;
     font-weight: bolder;
 }
 
 .lead h3{
-    color:#000;
+    color:000;
     font-weight: bold;
     font-size: 22px;
 }
@@ -1521,10 +1827,14 @@
  /* Pricing */
     
  .pricing__container{
-    padding-top: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 100px;
+}
+
+.plans{
+    padding-top: 150px !important;
 }
 
 .pricing__container .heading__text h2{
@@ -1561,7 +1871,7 @@
 }
 
 .pricing__package .pricing__package__title h3{
-    font-size: 28px !important;
+    font-size: 26px !important;
     color: #000;
     font-weight: unset !important;
 }
@@ -1570,7 +1880,7 @@
     margin-top: 20px;
 }
 .pricing__package__description p{
-    font-size: 15px;
+    font-size: 15px !important;
 }
 
 .pricing__carriage{
@@ -1601,11 +1911,25 @@
     font-weight: bold;
 }
 
+
+
+.pricing__package__compare .btn-lg{
+    padding: 10px 13px 10px 13px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ee7425;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.pricing__package__compare .btn-lg:hover{
+    background-color: #3097B8;
+    color: #fff;
+}
+
 .benefits{
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom:70px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .benefits h5{
@@ -1632,11 +1956,11 @@
 .start__trial .start__trial__content .start__trial__description h3{
     color: #fff;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .start__trial .start__trial__content .start__trial__form__box .form-control{
-    padding: 40px;
+    padding: 30px;
 }
 
 .start__trial .start__trial__content .start__trial__form__box #start-trial-btn{
@@ -1719,22 +2043,101 @@
 
 /* contact__sales */
 
-
-.contact__sales__box .contact__sales__top .contact__sales__top__header{
-    padding-top: 150px;
-    padding-right: 150px;
-    padding-left:150px;
-    padding-bottom: 60px;
-    text-align: center;
+.contact__sales__box{
+    padding-top: 1100px;
+    padding-bottom:200px;
+    /* background-image: url('../images/contact__sales.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-color: #4F668D;
+    margin-bottom: 100px;
+    opacity: 0.8;
 }
 
-.contact__sales__top h2{
+.contact__sales__grid__box{
+    position:absolute;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:absolute;
+    top: 140px;
+
+}
+
+.contact__sales__left{
+    padding: 10px;
+    margin-right: 30px;
+
+}
+
+
+.contact__sales__left .title__description h3{
+   font-size: 30px;
+   line-height: 40px;
+   font-weight:bold;
+   color: #fff;
+}
+
+.left__img__box{
+    margin-top: 60px;
+}
+
+.contact__sales__form__box .form__box{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-left: 30px;
+
+}
+
+.contact__sales__form__box .form__box form {
+    padding: 10px;
+}
+.contact__sales__form__box .form__box form .form-group {
+    margin-bottom: 30px;
+}
+
+.contact__sales__form__box .form__box form .form-group .form-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.contact__sales__form__box .form__box form .form-group .form-control-input{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border:none;
+    background-color:#F8FAFB;
+    border: 1px solid #ebe9ee;
+    /* border-radius: 30px; */
+}
+
+.contact__sales__form__box .form__box form .form-group .form-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact__sales__form__box form .form-group textarea{
+    /* border: 1px solid #000 !important; */
+    outline: none !important;
+    border: 1px solid #ebe9ee;
+
+}
+
+.contact__sales__form__box .form__box form .form-group .btn{
+    background-color: rgba(248, 119, 5, 1);
+    height: 60px;
     color: #fff;
-    font-size: 45px;
-    font-weight: 450;
+    font-weight: bold;
+    border: none;
+    /* border-radius: 50px; */
 }
 
-
+.contact__sales__form__box .form__box form .form-group .btn:hover{
+    background-color: #4F668D;
+}
 
   /* FOOTER */
   .footer{
@@ -1745,7 +2148,7 @@
 }
 
 
-
+}
 
 
 /* #################################################################################################################################### */

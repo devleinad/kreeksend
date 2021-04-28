@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css">
     <link rel="icon" href="./assets/images/logo/kreeksend.png" >
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>KreekSend - Campaigns</title>
+    <title>KreekSend - Contact Sales</title>
 </head>
 <body>
     <!--Header-->
@@ -112,42 +112,184 @@
    <!--Header ends here-->
 
    <section class="contact__sales__box">
-        <div class="contact__sales__top">
-                <div class="contact__sales__top__header">
-                <h2>
-                    We are a click away. Fill out the form. Our teams are standing by to get back to you quickly.
-                </h2>
-                </div>
-        </div>
-   </section>
+      
+        <div class="contact__sales__grid__box justify-content-center">
+            <div class="contact__sales__left">
+              <div class="title__description">
+                  <h3> We are a click away. Fill out the form. Our teams are standing by to get back to you quickly.</h3>
+              </div>
 
-  
-   
-  
-
-
-   
-
-   <section class="start__trial">
-     <div class="start__trial__content">
-      <div class="start__trial__description">
-        <h3>Email and SMS campaigns that actually work</h3>
-      </div>
-
-      <div class="start__trial__form__box">
-        <form>
-          <div class="input-group mb-3">
-            <input type="email" name="email" class="form-control border-0" 
-            placeholder="Email Address" 
-            aria-label="Email Address" aria-describedby="start-trial-btn" required>
-            <div class="input-group-append">
-              <button type="submit" class="btn btn-sm" id="start-trial-btn">Start for free</button>
+              <div class="left__img__box text-center">
+                  <img src="./assets/images/contact__sales__bg.jpg" class="w-100"/>
+              </div>
             </div>
-          </div>
-        </form>
-      </div>
-     </div>
+
+            <div class="contact__sales__form__box">
+              <div class="form__box">
+                <form>
+                  <!-- <h5 class="text-center font-weight-bold mb-5">Fill out the form below to complete the process.</h5> -->
+                    <div class="form-group">
+                      <label for="full_name" class="form-label">Full name <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control-input input" 
+                      name="full_name" placeholder="Your Full name" required autofocus>
+                    </div>
+                    <div class="form-group">
+                      <label for="website_url" class="form-label">Website </label>
+                      <input type="text" class="form-control-input input" 
+                      name="website_url" placeholder="Enter your website link"
+                      required
+                      >
+                    </div>
+        
+                      <div class="form-group">
+                        <label for="work_email" class="form-label">Work email <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control-input input" name="work_email"
+                         placeholder="Enter your work email" required>
+                      </div>
+        
+                      <div class="form-group">
+                        <label for="account" class="form-label">Account <span class="text-danger">*</span></label>
+                        <select class="form-control-input input" name="account">
+                          <option value="">Select account</option>
+                          <option value="1">I already have a KreekSend account</option>
+                          <option value="2">I don't have a KreekSend account</option>
+                        </select>
+                      </div>
+        
+                       
+        
+                        <div class="form-group">
+                          <label for="reason" class="form-label">Reason <span class="text-danger">*</span></label>
+                          <select class="form-control-input input" name="reason" required>
+                            <option value="">Select reason</option>
+                            <option value="1">General Enquiry</option>
+                            <option value="2">I need help getting started</option>
+                            <option value="3">I want to report an issue</option>
+                            <option value="4">I need sales support</option>
+                          </select>
+                        </div>
+        
+                        <div class="form-group">
+                          <label for="provider" class="form-label">Current service provider <span class="text-danger">*</span></label>
+                          <select class="form-control-input input" name="provider" required id="provider">
+                            <option value="">Select provider</option>
+                            <option value="1">Us (KreekSend)</option>
+                            <option value="2">Other</option>
+                          </select>
+        
+                       <div class="form-group mt-3 other-provider" style="display: none;">
+                         <label for="other_provider" class="form-label">Name of other provider <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control-input input" name="other_provider" 
+                        placeholder="Enter name of competitor (e.g. Mailchip)"
+                        required
+                        >
+                       </div>
+        
+                        </div>
+        
+                        <div class="form-group">
+                          <label for="message" class="form-label font-weight-bold">Your message <span class="text-danger">*</span></label>
+                          <textarea rows="5" class="form-control" name="message" placeholder="Type your message here..." required></textarea>
+                        </div>
+      
+                        <div class="form-group text-center mt-4">
+                          <button type="submit" class="btn btn-lg btn-block contact-btn">SUMBIT</button>
+                        </div>
+                  </div>
+                </form>
+              </div>
+            </div>
    </section>
+
+  
+   <section class="pricing__container">
+    <div class="heading__text text-center">
+      <h2>Our prices are unbeatable</h2>
+    </div>
+    <div class="pricing__flex justify-content-center">
+      <div class="pricing__package basic">
+        <div class="pricing__package__title">
+          <h3>Basic/Free</h3>
+        </div>
+
+        <div class="pricing__package__description">
+          <p>Send up to 1,000 emails/month, upload up to 1,000 contacts</p>
+        </div>
+
+        <div class="pricing__carriage text-center">
+          <h4><sup class="dollar__sign">$</sup><b class="package__fee">0</b><small>/month</small></h4>
+        </div>
+
+
+        <div class="pricing__package__link text-center">
+          <a href="" class="btn package__btn btn-block ">Start</a>
+        </div>
+      </div>
+
+      <div class="pricing__package essential">
+        <div class="pricing__package__title">
+          <h3>Essential</h3>
+        </div>
+        <div class="pricing__package__description">
+          <p>Send up to 10,000 emails/month, upload up to 6,000 contacts</p>
+        </div>
+
+        <div class="pricing__carriage text-center">
+          <h4><sup class="dollar__sign">$</sup><b class="package__fee">20</b><small>/month</small></h4>
+        </div>
+
+
+        <div class="pricing__package__link text-center">
+          <a href="" class="btn package__btn btn-block ">Buy</a>
+        </div>
+      </div>
+
+      <div class="pricing__package premium">
+        <div class="pricing__package__title">
+          <h3>Premium</h3>
+        </div>
+        <div class="pricing__package__description">
+          <p>Send up to 50,000 emails/month, upload up to 10,000 contacts</p>
+        </div>
+
+        <div class="pricing__carriage text-center">
+          <h4><sup class="dollar__sign">$</sup><b class="package__fee">30</b><small>/month</small></h4>
+        </div>
+
+
+        <div class="pricing__package__link text-center">
+          <a href="" class="btn btn-block package__btn">Buy</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pricing__package__compare text-center">
+      <a href="./bundles.html" class="btn btn-lg">Compare plans <i class="fa fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <section class="start__trial">
+   <div class="start__trial__content">
+    <div class="start__trial__description">
+      <h3>Email and SMS campaigns that actually work</h3>
+    </div>
+
+    <div class="start__trial__form__box">
+      <form>
+        <div class="input-group mb-3">
+          <input type="email" name="email" class="form-control border-0" 
+          placeholder="Email Address" 
+          aria-label="Email Address" aria-describedby="start-trial-btn" required>
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-sm" id="start-trial-btn">Start for free</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+  
 
    <footer class="footer">
       <div class="footer__top">
@@ -185,7 +327,7 @@
           </div>
 
           <div class="footer__top__content__items">
-            <a href="./anti-spam-policy.html">Anti-Spam Policy</a>
+            <a href="./anti-spam-policy.html">Anti-Spam & Ant-Abuse Policy</a>
             <a href="./cookie-policy.html">Cookie Policy</a>
             <a href="./privacy-policy.html">Privacy Policy</a>
           </div>
@@ -245,9 +387,7 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script src="./assets/css/bootstrap/dist/js/bootstrap.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/19885597.js"></script>
 
 <script>
@@ -307,6 +447,35 @@ $('body').on('mouseenter mouseleave','.nav-item',function(e){
         }
 });	
 })(jQuery); 
+
+
+//Set border thickness when input is focused on
+
+//get all inputs
+let inputs = document.querySelectorAll('.input');
+inputs.forEach(input => {
+input.addEventListener('focus',() => {
+  input.style.borderLeft = "4px solid #E67E22";
+})
+
+//Remove border thickness when input is focused out
+input.addEventListener('focusout',() => {
+  input.style.borderLeft = "1px solid #ebe9ee";
+})
+});
+
+let providerSelect = document.getElementById('provider');
+providerSelect.addEventListener('change', function(){
+  let otherProvider = document.querySelector(".other-provider");
+  if(this.value && this.value === "2"){
+    otherProvider.style.display = "block";
+  }
+  else{
+    otherProvider.style.display = "none";
+
+  }
+});
+ 
 
 
 </script>
