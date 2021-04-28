@@ -228,6 +228,21 @@
 .prepo__img figure img{
     width: 300px;
 }
+#community{
+    width: 230px;
+}
+
+#progress{
+    width: 250px;
+    position: relative;
+    bottom: 30px;
+}
+
+#delivered{
+    width: 290px;
+    position: relative;
+    bottom: 30px;
+}
 
 
 
@@ -258,6 +273,7 @@
 
 .sec__prepo__container{
     padding-bottom: 0px !important;
+    background-color: rgb(247, 249, 255);
 }
 
  /* Kreeksend Partners */
@@ -1009,7 +1025,7 @@
     }
 
     .prepo__container{
-        padding: 10px 10px 10px 20px !important;
+        padding: 60px 10px 10px 20px !important;
      
     }
     
@@ -1019,8 +1035,25 @@
         width: 250px !important;
     }
 
-  
+    #community{
+        width: 200px !important;
+    }
 
+    #analytics{
+        width: 300px !important;
+    }
+
+    #progress{
+        width: 200px !important;
+    }
+  
+.sec__prepo__container{
+    padding-top: 60px !important;
+}
+
+.third__prepo__container{
+    padding-top: 60px !important;
+}
     /* #connect{
         width: 250px !important;
     }
