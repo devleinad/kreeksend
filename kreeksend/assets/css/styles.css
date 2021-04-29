@@ -105,7 +105,7 @@
 
 }
 .nav-item:hover .nav-link{
-	color: #3097B8 !important;
+	color: #2663a5 !important;
 }
 .nav-item.active .nav-link{
 	color: #777 !important;
@@ -126,7 +126,7 @@
 }
 
 .signin-btn{
-    background-color: #3097B8;
+    background-color: #2663a5;
     position: relative;
     padding:7px 10px 7px 10px;
     font-weight: bold;
@@ -273,13 +273,12 @@
 
 .sec__prepo__container{
     padding-bottom: 0px !important;
-    background-color: rgb(247, 249, 255);
 }
 
  /* Kreeksend Partners */
 
  .kreeksend_partners{
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left:130px;
     padding-right: 130px;
     padding-bottom: 10px;
@@ -289,7 +288,9 @@
     background-size: cover; */
      /* box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15); */
 
-    background-color: #F8FAFB;
+    background-color: #fff;
+    border-top: 1px solid #ebe9ee;
+    border-bottom: 1px solid #ebe9ee;
     
 }
 
@@ -458,7 +459,7 @@
     margin-top: 15px;
 }
 .pricing__package__link .package__btn{
-    background-color:#3097B8 ;
+    background-color:#2663a5 ;
     padding: 12px;
     color: #fff;
     font-weight: bold;
@@ -481,7 +482,7 @@
     margin-top: 30px;
 }
 .pricing__package__compare .btn-lg:hover{
-    background-color: #3097B8;
+    background-color: #2663a5;
     color: #fff;
 }
 
@@ -693,9 +694,8 @@
     /* background-image: url('../images/contact__sales.jpg'); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
-    background-color: #4F668D;
+    background-color: #eeeeee;
     margin-bottom: 100px;
-    opacity: 0.8;
 }
 
 .contact__sales__grid__box{
@@ -710,17 +710,18 @@
 }
 
 .contact__sales__left{
-    padding: 10px;
+    padding: 40px 10px 10px 10px;
     margin-right: 30px;
 
 }
 
 
 .contact__sales__left .title__description h3{
-   font-size: 38px;
-   line-height: 40px;
+   font-size: 34px;
+   line-height: 54px;
+   text-align: center;
    font-weight:bold;
-   color: #fff;
+   color: #2663a5;
 }
 
 .left__img__box{
@@ -779,7 +780,7 @@
 }
 
 .contact__sales__form__box .form__box form .form-group .btn:hover{
-    background-color: #4F668D;
+    background-color: #eeeeee;
 }
 
 /* About */
@@ -1050,6 +1051,8 @@
   
 .sec__prepo__container{
     padding-top: 60px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 
 .third__prepo__container{
@@ -1517,7 +1520,7 @@
     /* background-image: url('../images/contact__sales.jpg'); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
-    background-color: #4F668D;
+    background-color: #eeeeee;
     margin-bottom: 0px !important;
     opacity: 0.8;
 }
@@ -1540,12 +1543,10 @@
 }
 
 
-.contact__sales__left .title__description h3{
-   font-size: 26px;
-   line-height: unset !important;
-   font-weight:bold;
-   color: #fff;
-}
+.contact__sales_34eft .title__description h3{
+   font-size: 30px54   
+   text-align: center;line-height: unset !important;
+   color: #ff2bold
 
 .left__img__box{
     margin-top: 60px;
@@ -1603,7 +1604,7 @@
 }
 
 .contact__sales__form__box .form__box form .form-group .btn:hover{
-    background-color: #4F668D;
+    background-color: #eeeeee;
 }
 
 /* About */
@@ -1837,7 +1838,7 @@
 }
 
 .signin-btn{
-    background-color: #3097B8;
+    background-color: #2663a5;
     position: relative;
     padding:7px 10px 7px 10px;
     font-weight: bold;
@@ -2144,7 +2145,7 @@
     margin-top: 7px;
 }
 .pricing__package__link .package__btn{
-    background-color: #3097B8 ;
+    background-color: #2663a5 ;
     padding: 12px;
     color: #fff;
     font-weight: bold;
@@ -2162,7 +2163,7 @@
     margin-top: 30px;
 }
 .pricing__package__compare .btn-lg:hover{
-    background-color: #3097B8;
+    background-color: #2663a5;
     color: #fff;
 }
 
@@ -2288,7 +2289,7 @@
     /* background-image: url('../images/contact__sales.jpg'); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
-    background-color: #4F668D;
+    background-color: #eeeeee;
     margin-bottom: 100px;
     opacity: 0.8;
 }
@@ -2312,10 +2313,11 @@
 
 
 .contact__sales__left .title__description h3{
-   font-size: 30px;
-   line-height: 40px;
-   font-weight:bold;
-   color: #fff;
+   font-size: 34px;
+   line-height: 54px;
+   text-align: center;
+   font-weightbold
+   color: #2663a5;
 }
 
 .left__img__box{
@@ -2374,7 +2376,7 @@
 }
 
 .contact__sales__form__box .form__box form .form-group .btn:hover{
-    background-color: #4F668D;
+    background-color: #eeeeee;
 }
 
 
