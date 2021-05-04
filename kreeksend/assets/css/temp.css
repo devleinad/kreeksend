@@ -1223,8 +1223,8 @@ padding-left: 0px !important;
 
     /* Top Content .top__content */
     .top__container{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
         padding-bottom: 50px;
         padding-top: 130px;
  
@@ -1233,7 +1233,6 @@ padding-left: 0px !important;
     .top__content{
         display: flex;
         flex-direction: column;
-
     }
    
 .left__side__top .ml2{
@@ -1272,7 +1271,7 @@ padding-left: 0px !important;
 }
 
 .prepo__container{
-    padding: 60px 0px 10px 0px !important; 
+    padding: 60px 10px 10px 10px !important; 
 }
 
 .prepo__p p{
