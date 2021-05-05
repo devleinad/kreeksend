@@ -27,7 +27,7 @@
 }
 .start-header.scroll-on {
 	box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
-	padding: 10px 0;
+	padding: 12px 0;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
@@ -50,7 +50,10 @@
 .navbar{
 	padding: 0;
 }
-.navbar-brand img{
+.navbar-brand #mobile__logo, .mb__only{
+    display: none;
+}
+.navbar-brand #big__screen__logo{
 	height: 50px;
 	width: auto;
 	display: block;
@@ -1273,6 +1276,28 @@ padding-left: 0px !important;
 /* MEDIA QUERIES */
 @media screen and (max-width:600px){
 
+    .navbar-brand #mobile__logo, .mb__only{
+        display: inline-block;
+    }
+    .navbar-brand #big__screen__logo,.signup-btn,.signin-btn{
+        display: none;
+    }
+    .navbar-brand #mobile__logo{
+        height: 45px !important;
+        width: auto;
+        display: block;
+        -webkit-transition : all 0.3s ease-out;
+        transition : all 0.3s ease-out;
+    }
+
+    .mb__only{
+        background-color:#2663a5;
+        padding: 8px 43px;
+        color: #fff;
+        border-radius: 30px;
+        font-weight: bold;
+    }
+
     .collapse{
     position: relative;
     bottom:0;
@@ -1310,10 +1335,6 @@ padding-left: 0px !important;
         margin-left: 10px;
     }
     
-    .header .navbar .navbar-brand img{
-        width: 50%;
-    }
-
 
     /* Top Content .top__content */
     .top__container{
@@ -1354,9 +1375,9 @@ padding-left: 0px !important;
     font-weight: unset !important;
 }
 
-.left__side__top .pick__plan p{
-    color: #000;
+.left__side__top p{
     font-size: 15px !important;
+    font-weight: 500 !important;
 }
 
 
@@ -2326,10 +2347,36 @@ padding-left: 0px !important;
 @media (max-width:1024px) and (min-width:768px){
     /* #Navigation
 ================================================== */
-      
+.navbar-collapse {
+    margin-top: 10px !important;
+}
+
 .navbar-collapse .navbar-nav .nav-item{
     margin-bottom: 30px;
     margin-left: 10px;
+}
+
+.navbar-brand #mobile__logo, .mb__only{
+    display: inline-block;
+}
+.navbar-brand #mobile__logo,.signup-btn,.signin-btn{
+    display: none !important;
+}
+.navbar-brand #mobile__logo{
+    height: 45px !important;
+    width: auto;
+    display: block;
+    -webkit-transition : all 0.3s ease-out;
+    transition : all 0.3s ease-out;
+}
+
+.mb__only{
+    background-color:#2663a5;
+    padding: 13px 100px;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 

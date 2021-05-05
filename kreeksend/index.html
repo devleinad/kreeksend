@@ -67,8 +67,11 @@
       <div class="col-12">
        <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="./index.html">
-          <img src="./assets/images/logo/kreeksend.png" alt="">
+          <img src="./assets/images/logo/kreeksend.png" id="big__screen__logo" alt="KreekSend">
+          <img src="./assets/images/logo/kreeksend__mobile__logo.jpg" id="mobile__logo" alt="KreekSend">
         </a>
+
+        <a href="https://kreeksend.com/account/register" class="mb__only btn btn-sm">Register</a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -135,12 +138,12 @@
           </div>
         </li>
 
-        <li class="nav-item mr-4">
+        <li class="nav-item mr-4 register-li">
           <a href="http://app.kreeksend.com/account/register"
            class="btn btn-sm signup-btn">Register</a> 
         </li>
 
-        <li class="nav-item mr-4">
+        <li class="nav-item mr-4 login-li">
           <a href="http://app.kreeksend.com/account/login"
            class="nav-link text-primary signin-btn ">Login</a> 
         </li>
@@ -794,62 +797,62 @@
       <script src="./assets/css/bootstrap/dist/js/bootstrap.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <script>
-        (function($) { "use strict";
+//         (function($) { "use strict";
 
-          $(function() {
-            var header = $(".start-style");
-            $(window).scroll(function() {    
-              var scroll = $(window).scrollTop();
+//           $(function() {
+//             var header = $(".start-style");
+//             $(window).scroll(function() {    
+//               var scroll = $(window).scrollTop();
 
-              if (scroll >= 10) {
-                header.removeClass('start-style').addClass("scroll-on");
-              } else {
-                header.removeClass("scroll-on").addClass('start-style');
-              }
-            });
-          });		
+//               if (scroll >= 10) {
+//                 header.removeClass('start-style').addClass("scroll-on");
+//               } else {
+//                 header.removeClass("scroll-on").addClass('start-style');
+//               }
+//             });
+//           });		
 
-          var $ = jQuery.noConflict();
-          const $dropdown = $(".dropdown");
-          const $dropdownToggle = $(".dropdown-toggle");
-          const $dropdownMenu = $(".dropdown-menu");
-          const showClass = "show";
+//           var $ = jQuery.noConflict();
+//           const $dropdown = $(".dropdown");
+//           const $dropdownToggle = $(".dropdown-toggle");
+//           const $dropdownMenu = $(".dropdown-menu");
+//           const showClass = "show";
 
-          $(window).on("load resize", function() {
-            if (this.matchMedia("(min-width: 768px)").matches) {
-              $dropdown.hover(
-                function() {
-                  const $this = $(this);
-                  $this.addClass(showClass);
-                  $this.find($dropdownToggle).attr("aria-expanded", "true");
-                  $this.find($dropdownMenu).addClass(showClass);
-                },
-                function() {
-                  const $this = $(this);
-                  $this.removeClass(showClass);
-                  $this.find($dropdownToggle).attr("aria-expanded", "false");
-                  $this.find($dropdownMenu).removeClass(showClass);
-                }
-                );
-            } else {
-              $dropdown.off("mouseenter mouseleave");
-            }
+//           $(window).on("load resize", function() {
+//             if (this.matchMedia("(min-width: 768px)").matches) {
+//               $dropdown.hover(
+//                 function() {
+//                   const $this = $(this);
+//                   $this.addClass(showClass);
+//                   $this.find($dropdownToggle).attr("aria-expanded", "true");
+//                   $this.find($dropdownMenu).addClass(showClass);
+//                 },
+//                 function() {
+//                   const $this = $(this);
+//                   $this.removeClass(showClass);
+//                   $this.find($dropdownToggle).attr("aria-expanded", "false");
+//                   $this.find($dropdownMenu).removeClass(showClass);
+//                 }
+//                 );
+//             } else {
+//               $dropdown.off("mouseenter mouseleave");
+//             }
 
-          });
+//           });
 
 
 
-//Menu On Hover
+// //Menu On Hover
 
-$('body').on('mouseenter mouseleave','.nav-item',function(e){
-  if ($(window).width() > 750) {
-    var _d=$(e.target).closest('.nav-item');_d.addClass('show');
-    setTimeout(function(){
-      _d[_d.is(':hover')?'addClass':'removeClass']('show');
-    },1);
-  }
-});	
-})(jQuery); 
+// $('body').on('mouseenter mouseleave','.nav-item',function(e){
+//   if ($(window).width() > 750) {
+//     var _d=$(e.target).closest('.nav-item');_d.addClass('show');
+//     setTimeout(function(){
+//       _d[_d.is(':hover')?'addClass':'removeClass']('show');
+//     },1);
+//   }
+// });	
+// })(jQuery); 
 
 
 document.addEventListener("DOMContentLoaded", function(){
