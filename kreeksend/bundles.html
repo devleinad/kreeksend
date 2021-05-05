@@ -10,13 +10,20 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Hind:300,400,500,700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css">
-    <link rel="icon" href="./assets/images/logo/kreeksend.png" >
+    <link rel="icon" href="./assets/images/logo/icon.jpg" >
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>KreekSend - Bundles</title>
     <style>
+      .essential{
+        border: none !important;
+      }
+      .package__btn{
+        background-color: #2663a5;
+        color: #fff;
+      }
       .package__btn:hover{
-        background-color: #2663a5 !important;
-        color: #fff !important;
+        background-color: #fff !important;
+        color: #2663a5 !important;
         border: none !important;
       }
     </style>
@@ -33,7 +40,7 @@
               <img src="./assets/images/logo/kreeksend__mobile__logo.jpg" id="mobile__logo" alt="KreekSend">
             </a>
     
-            <a href="https://kreeksend.com/account/register" class="mb__only btn btn-sm">Register</a>
+            <a href="https://app.kreeksend.com/account/register" class="mb__only btn btn-sm">Register</a>
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
@@ -101,12 +108,12 @@
             </li>
     
             <li class="nav-item mr-4 register-li">
-              <a href="http://app.kreeksend.com/account/register"
+              <a href="https://app.kreeksend.com/account/register"
                class="btn btn-sm signup-btn">Register</a> 
             </li>
     
             <li class="nav-item mr-4 login-li">
-              <a href="http://app.kreeksend.com/account/login"
+              <a href="https://app.kreeksend.com/account/login"
                class="nav-link text-primary signin-btn ">Login</a> 
             </li>
                                     </ul>
@@ -127,7 +134,7 @@
     <div class="pricing__flex justify-content-center">
         <div class="pricing__package">
             <div class="pricing__package__title">
-              <h3 class="text-white text-center">Basic/Free</h3>
+              <h2 class="text-white text-center">Basic/Free</h2>
             </div>
 
             <div class="pricing__package__description">
@@ -140,28 +147,27 @@
 
         
             <div class="pricing__package__link text-center">
-              <a href="" class="btn package__btn btn-block bg-white" 
-              style="color:#2663a5;">Start for free</a>
+              <a href="" class="btn package__btn btn-block" >Start for free</a>
             </div>
 
         </div>
 
-        <div class="pricing__package shadow-lg">
+        <div class="pricing__package essential">
           <div class="pricing__package__title">
-            <h3 class="text-white text-center">Essential</h3>
+            <h2 class="text-dark text-center">Essential</h2>
           </div>
           <div class="pricing__package__description">
-              <p class="text-white">Send up to 10,000 emails/month, upload up to 6,000 contacts</p>
+              <p class="text-dark">Send up to 10,000 emails/month, upload up to 6,000 contacts</p>
           </div>
 
           <div class="pricing__carriage text-center">
-            <h4 class="text-white"><sup class="dollar__sign">$</sup><b class="package__fee">20</b>
+            <h4 class="text-dark"><sup class="dollar__sign">$</sup><b class="package__fee">20</b>
               <small>/month</small></h4>
         </div>
 
     
         <div class="pricing__package__link text-center">
-          <a href="" class="btn package__btn btn-block bg-white" style="color:#2663a5;">Buy package</a>
+          <a href="" class="btn package__btn btn-block">Buy package</a>
         </div>
 
 
@@ -169,7 +175,7 @@
 
       <div class="pricing__package">
         <div class="pricing__package__title">
-          <h3 class="text-white">Premium</h3>
+          <h2 class="text-white">Premium</h2>
         </div>
         <div class="pricing__package__description">
             <p class="text-white">Send up to 50,000 emails/month, upload up to 10,000 contacts</p>
@@ -181,7 +187,7 @@
 
   
       <div class="pricing__package__link text-center">
-        <a href="" class="btn package__btn btn-block bg-white" style="color:#2663a5;">Buy package</a>
+        <a href="" class="btn package__btn btn-block">Buy package</a>
       </div>
 
 
@@ -196,190 +202,192 @@
 
  <div class="benefits mt-5" id="compare">
   <h5 class="font-weight-bold">Compare bundles with benefits</h5>
+ <div class="table-responsive">
   <table class="table table-hover mt-5">
-      <thead>
-          <th>Benefits</th>
-          <th>Basic</th>
-          <th>Essential</th>
-          <th>Premium</th>
-          
-      </thead>
+    <thead>
+        <th>Benefits</th>
+        <th>Basic</th>
+        <th>Essential</th>
+        <th>Premium</th>
+        
+    </thead>
 
-      <tbody>
+    <tbody>
+
+      <tr>
+        <td>Number of users</td>
+        <td><b>1</b> user</td>
+        <td> <b>5</b> users </td>
+        <td> <b>10</b> users</td>
+      </tr>
+
+      <tr>
+        <td>Number of audiences</td>
+        <td><b>3</b> audiences</td>
+        <td> <b>5</b> audiences </td>
+        <td> <b>10</b> audiences</td>
+      </tr>
 
         <tr>
-          <td>Number of users</td>
-          <td><b>1</b> user</td>
-          <td> <b>5</b> users </td>
-          <td> <b>10</b> users</td>
+          <td>Number of emails/month</td>
+          <td>Up to <b>1,000</b> emails/month</td>
+          <td> Up to <b>10,000</b> emails/month </td>
+          <td>Up to <b>50,000</b> emails/month</td>
         </tr>
 
         <tr>
-          <td>Number of audiences</td>
-          <td><b>3</b> audiences</td>
-          <td> <b>5</b> audiences </td>
-          <td> <b>10</b> audiences</td>
+          <td>Number of SMSs</td>
+          <td>0 SMSs</td>
+          <td> Up to <b>500</b> SMSs </td>
+          <td>Up to <b>1,000</b> SMSs</td>
         </tr>
 
-          <tr>
-            <td>Number of emails/month</td>
-            <td>Up to <b>1,000</b> emails/month</td>
-            <td> Up to <b>10,000</b> emails/month </td>
-            <td>Up to <b>50,000</b> emails/month</td>
-          </tr>
+        <tr>
+          <td>Number of contacts</td>
+          <td>Up to <b>1,000</b> contacts</td>
+          <td> Up to <b>6,000</b> contacts </td>
+          <td>Up to <b>10,000</b> contacts ($5 extra monthly for every 1,000 contacts)</td>
+        </tr>
 
-          <tr>
-            <td>Number of SMSs</td>
-            <td>0 SMSs</td>
-            <td> Up to <b>500</b> SMSs </td>
-            <td>Up to <b>1,000</b> SMSs</td>
-          </tr>
+        <tr>
+          <td> Resource Center</td>
+          <td><i class="fa fa-check text-success"></i></td>
+          <td><i class="fa fa-check text-success"></i></td>
+          <td><i class="fa fa-check text-success"></i></td>
+      </tr>
 
-          <tr>
-            <td>Number of contacts</td>
-            <td>Up to <b>1,000</b> contacts</td>
-            <td> Up to <b>6,000</b> contacts </td>
-            <td>Up to <b>10,000</b> contacts ($5 extra monthly for every 1,000 contacts)</td>
-          </tr>
 
-          <tr>
-            <td> Resource Center</td>
+        <tr>
+            <td> Tutorials </td>
             <td><i class="fa fa-check text-success"></i></td>
             <td><i class="fa fa-check text-success"></i></td>
             <td><i class="fa fa-check text-success"></i></td>
         </tr>
 
+      
+        <tr>
+            <td> 24/7 Email Support </td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
 
-          <tr>
-              <td> Tutorials </td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
+        <tr>
+            <td> Email Automation </td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+            <td> Drag and drop editor </td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+            <td> Newsletter templates </td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+            <td> Files manager </td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+          <td> Phone support</td>
+          <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+            <td> Insight</td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+      <tr>
+        <td> Developer API</td>
+        <td><i class="fa fa-times text-danger"></i></td>
+        <td><i class="fa fa-check text-success"></i></td>
+        <td><i class="fa fa-check text-success"></i></td>
+      </tr>
+
+        <tr>
+            <td> Integrations</td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+          <td> Custom HTML editor</td>
+          <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+            <td> Remove Kreek Send logo</td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+          <td> Delivery by timezone</td>
+          <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+            <td> Dedicated account manager</td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+          <td> Auto resend</td>
+          <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+            <td> Opens by location</td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+          <td>Advanced segmentation</td>
+          <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
+
+        <tr>
+            <td> Advanced insight, analytics and reporting</td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-times text-danger"></i></td>
+            <td><i class="fa fa-check text-success"></i></td>
+        </tr>
 
         
-          <tr>
-              <td> 24/7 Email Support </td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Email Automation </td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Drag and drop editor </td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Newsletter templates </td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Files manager </td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-            <td> Phone support</td>
-            <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Insight</td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-        <tr>
-          <td> Developer API</td>
-          <td><i class="fa fa-times text-danger"></i></td>
-          <td><i class="fa fa-check text-success"></i></td>
-          <td><i class="fa fa-check text-success"></i></td>
-        </tr>
-
-          <tr>
-              <td> Integrations</td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-            <td> Custom HTML editor</td>
-            <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Remove Kreek Send logo</td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-            <td> Delivery bt timezone</td>
-            <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Dedicated account manager</td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-            <td> Auto resend</td>
-            <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Opens by location</td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-            <td>Advanced segmentation</td>
-            <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          <tr>
-              <td> Advanced insight, analytics and reporting</td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-times text-danger"></i></td>
-              <td><i class="fa fa-check text-success"></i></td>
-          </tr>
-
-          
-      </tbody>
-  </table>
+    </tbody>
+</table>
+ </div>
 </div>
 
 
@@ -432,7 +440,7 @@
           </div>
           
           <div class="footer__top__content__items">
-            <a href="./anti-spam-policy.html">Anti-Spam & Ant-Abuse Policy</a>
+            <a href="./anti-spam-policy.html">Anti-Spam & Anti-Abuse Policy</a>
             <a href="./cookie-policy.html">Cookie Policy</a>
             <a href="./privacy-policy.html">Privacy Policy</a>
           </div>
@@ -454,7 +462,7 @@
               <i class="fab fa-lg fa-linkedin-in"></i>
             </a>
 
-            <a href="https://www.instagram.com/kreeksend/" target="_blank" >
+            <a href="https://www.facebook.com/kreeksend/" target="_blank" >
               <i class="fab fa-lg fa-facebook-f"></i>
             </a>
 
@@ -469,9 +477,7 @@
             <a href="https://www.youtube.com/channel/UCjjVwwlHIkEXuqvnavq7h_g" target="_blank">
               <i class="fab fa-lg fa-youtube"></i>
             </a>
-
-            <a href="" target="_blank" class="pinterest"><i class="fa fa-pinterest-p"></i>
-            </a>
+            
           </div>
       </div>
 

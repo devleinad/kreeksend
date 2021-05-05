@@ -180,9 +180,9 @@
     margin-top: 20px;
 }
 .left__side__top .trial-box > p{
-    font-size: 21px;
+    font-size: 22px;
     color:#ffffff;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .trial-box div .register-btn{
@@ -436,9 +436,8 @@
 }
 
 .plans{
-    background-image: url('../images/plans_banner.svg');
-    background-size: cover;
-    padding-top: 180px;
+    background-color: #ee7425;
+    padding-top: 150px;
     padding-bottom: 120px;
 }
 
@@ -454,7 +453,7 @@
 
 .pricing__package{
     margin-top: 30px;
-    padding: 3.125rem 1.25rem 1.25rem;
+    padding: 70px 30px;
     margin: 1.25rem 0;
     position: relative;
    
@@ -491,12 +490,14 @@
     text-align: center;
 }
 
-.plans .pricing__flex .pricing__flex .pricing__package__title h3{
+.plans .pricing__flex .pricing__flex .pricing__package__title h2{
     color: #fff;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 30px;
 }
-
+.premium__pricing{
+    margin-top: 35px;
+}
 
 .pricing__package__description{
     margin-top: 20px;
@@ -1160,7 +1161,6 @@ padding-left: 0px !important;
 
 /* Support box */
 .support__box{
-
     padding-top: 100px;
     padding-bottom: 80px;
 }
@@ -1168,7 +1168,7 @@ padding-left: 0px !important;
 .support__box .support__top{
     background-image: url('../images/support_bg.svg');
     background-size: cover;
-    padding-bottom: 200px;
+    padding-bottom: 80px;
     padding-top: 80px;
    
 }  
@@ -1206,7 +1206,7 @@ padding-left: 0px !important;
 }
 
 .support__items .support__item h3{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #000;
 }
@@ -1237,6 +1237,36 @@ padding-left: 0px !important;
     color: #777;
 
 }
+
+.sales__support{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.other__links{
+    text-align: center;
+}
+.other__links{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.other__links h3{
+    text-align: center;
+}
+
+.other__links__lists a{
+    display: inline;
+    text-decoration: none;
+}
+
+.other__links__lists a img{
+    width: 40px;
+    margin-left: 40px;
+    margin-right:40px;
+}
+
+
 
 
 
@@ -1643,14 +1673,14 @@ padding-left: 0px !important;
 
 
 
-    /* Pricing */
+/* Pricing */
     
-    .pricing__container{
-        padding-top: 50px;
-        padding-left: 3px;
-        padding-right: 3px;
-        padding-bottom: 50px;
-    }
+.pricing__container{
+    padding-top: 50px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 50px;
+}
 
     
 .credits__container{
@@ -1672,14 +1702,19 @@ padding-left: 0px !important;
 }
  
     .plans{
-        padding-top: 150px !important;
+        background-color: #2663a5 !important;
+        padding-top: 130px !important;
+        padding-bottom: 90px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+
     }
    
     .pricing__flex{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 
     .pricing__package{
@@ -2246,15 +2281,12 @@ padding-left: 0px !important;
 
 /* Support box */
 .support__box{
-
-    padding-top: 100px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 20px !important;
 }
 
 .support__box .support__top{
-    background-image: url('../images/support_bg.svg');
-    background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 80px !important;
     padding-top: 80px;
    
 }  
@@ -2268,13 +2300,12 @@ padding-left: 0px !important;
 
 .support__box .support__top .support__top__header h2{
     color: #fff;
-    font-size: 52px;
     font-weight: 700;
 }
 
 .support__box .support__top .support__top__header p{
     color: #fff;
-    font-size: 18px;
+    font-size: 16px !important;
     margin-top: 10px;
 }
 
@@ -2288,12 +2319,12 @@ padding-left: 0px !important;
 
 
 .support__item{
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
 }
 
 .support__items .support__item h3{
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 23px !important;
+    font-weight: 700 !important;
     color: #000;
 }
 .campaign__items .campaign__item p{
@@ -2311,13 +2342,13 @@ padding-left: 0px !important;
     flex-direction: column;
 }
 
-.support__items .support__item .support__icon__box .inner__icon__box{
-    margin-bottom: 60px;
+.support__items .support__item .support__icon__box .live__chat{
+    margin-top: 60px !important;
 }
 
 
 .inner__icon__box div img{
-    width: 100px;
+    width: 90px !important;
     margin-bottom: 15px;
 }
 
@@ -2326,6 +2357,42 @@ padding-left: 0px !important;
     color: #777;
 
 }
+
+.sales__support{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.sales__support h3{
+    font-size: 23px !important;
+}
+.sales__support p{
+    font-size: 15px !important;
+}
+
+.other__links{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.other__links h3{
+    font-size: 23px !important;
+}
+
+
+.other__links__lists a{
+    display: inline;
+    text-decoration: none;
+}
+
+.other__links__lists a img{
+    width: 40px;
+    margin-bottom: 50px;
+
+}
+
+
+
 
 
 
@@ -2697,12 +2764,9 @@ padding-left: 0px !important;
     margin-top: 30px;
 }
 
-.premium__pricing{
-    margin-top: 35px !important;
-}
 
 .essential__pricing, .basic__pricing{
-    margin-top: 35px;
+    margin-top: 35px !important;
 }
 
 
