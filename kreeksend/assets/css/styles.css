@@ -1763,6 +1763,9 @@ padding-left: 0px !important;
         top: -27px !important;
     }
 
+    .plans .pricing__flex .pricing__package .pricing__package__link .package__btn{
+        background-color: #ee7425;
+    }
    
 
     .benefits{
