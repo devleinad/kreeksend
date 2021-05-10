@@ -148,7 +148,7 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 160px;
-    padding-bottom: 200px;
+    padding-bottom: 40px;
     background-color:#F8FAFB;
     background-attachment: fixed;
     background-size: cover;
@@ -180,18 +180,18 @@
     margin-top: 20px;
 }
 .left__side__top .trial-box > p{
-    font-size: 22px;
-    color:#000;
-    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
 }
 
 .trial-box div .register-btn{
     background-color:#ee7425;
-    padding: 15px 30px;
-    color: #ffff;
+    padding: 13px 30px;
+    color:#fff;
     font-weight: 600;
     font-size: 16px;
-    border: none;
+    border: 1px solid #F8FAFB;
     border-radius: 30px;
     margin-top: 10px;
 }
@@ -201,28 +201,8 @@
 }
 
 
-
-.left__side__top .pick__plan p{
-    color: #000;
-    font-size: 20px;
-}
-
-.left__side__top .pick__plan div{
-    text-align: center;
-}
-.left__side__top .pick__plan div .btn{
-    background-color: #2663a5;
-    padding: 13px 24px;
-    color: #ffff;
-    font-weight: 500;
-    font-size: 15px;
-    border: none;
-    border-radius: 30px;;
-}
-
-
 .right__side__top svg{
-    width: 600px;
+    width: 550px;
     position: relative;
     bottom: 90px;
     
@@ -463,10 +443,6 @@
     background-color: #F8FAFB;
 }
 
-.basic,.essential,.premium{
-    border: 1px solid #ebe9ee;
-}
-
 
 .pricing__benefits__box{
     margin-top: 30px;
@@ -540,11 +516,12 @@
     margin-top: 15px;
 }
 .package__btn{
-    background-color:#ee7425 ;
+    background-color:#2663a5 ;
    padding: 13px 24px;
     color: #fff;
     font-weight: 700;
     margin-top: 30px;
+    border-radius: 30px;
 }
 
 .package__btn:hover{
@@ -642,7 +619,7 @@
 
 .footer__middle{
     display: flex;
-    margin-top: 15px;
+    margin-top: 40px;
     position: relative;
     justify-content: space-between;
     padding-left: 69px;
@@ -1058,7 +1035,6 @@ padding-left: 0px !important;
     padding: 30px 20px 30px 20px;
     margin-bottom: 20px;
     background-color: #fff;
-    border-radius: 5px;
     border: 1px solid #ebe9ee;
 
 }
@@ -1764,7 +1740,7 @@ padding-left: 0px !important;
     }
 
     .plans .pricing__flex .pricing__package .pricing__package__link .package__btn{
-        background-color: #ee7425;
+        background-color: #2663a5;
     }
    
 
@@ -2760,7 +2736,7 @@ padding-left: 0px !important;
     margin-top: 15px;
 }
 .package__btn{
-    background-color:#ee7425 ;
+    background-color:#2663a5 ;
    padding: 13px 24px;
     color: #fff;
     font-weight: 700;
