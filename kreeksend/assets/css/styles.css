@@ -424,7 +424,7 @@
 
 .pricing__flex{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-column-gap: 1rem;
     padding-left: 10px;
     padding-right: 10px;
@@ -436,12 +436,10 @@
     padding: 70px 30px;
     margin: 1.25rem 0;
     position: relative;
+    border: 1px solid #fff;
    
 }
 
-.essential{
-    background-color: #F8FAFB;
-}
 
 
 .pricing__benefits__box{
@@ -479,12 +477,13 @@
     margin-top: 20px;
 }
 .pricing__package__description p{
-    font-size: 16px;
+    font-size: 15px;
     color: #000000;
 }
 
 .pricing__carriage{
     padding: 5px;
+    margin-top: 30px !important;
 }
 
 .pricing__carriage h4{
@@ -504,7 +503,7 @@
 }
 
 .package__fee{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
 }
 
