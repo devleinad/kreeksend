@@ -385,6 +385,8 @@
     padding-bottom:70px;
 }
 
+
+
 .credits__container{
     padding-top: 150px;
     padding-left: 220px;
@@ -492,6 +494,10 @@
     font-weight: 700 !important;
 }
 
+.free__{
+    font-size: 10px !important;
+}
+
 .dollar__sign{
     position: relative;
     top: -30px;
@@ -533,9 +539,10 @@
 
 .pricing__package__compare a{
     padding: 11px 24px;
-    color: #2663a5;
+    background-color: #2663a5;
     font-weight: 500;
     font-size: 16px;
+    color: #fff;
 }
 .pricing__package__compare .btn-lg:hover{
     text-decoration: underline;
@@ -958,7 +965,7 @@ padding-left: 0px !important;
     
 /* Bottom Prepo */
 .bottom__prepo__container{
-    padding-top: 50px;
+    padding-top: 150px;
     padding-right: 130px !important;
     padding-left: 90px !important;
     padding-bottom: 50px !important;
