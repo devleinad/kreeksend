@@ -128,6 +128,10 @@
 .dropdown-menu .dropdown-item{
     margin-bottom: 10px;
 }
+.sm-only-login-li{
+    display: none !important;
+}
+
 
 .signup-btn{
     background-color: #2663a5;
@@ -1221,6 +1225,8 @@ padding-left: 0px !important;
     padding:10px 20px;
 }
 
+
+
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
@@ -1234,8 +1240,19 @@ padding-left: 0px !important;
     .navbar-brand #mobile__logo, .mb__only{
         display: inline-block;
     }
-    .navbar-brand #big__screen__logo,.signup-btn,.signin-btn{
+    .navbar-brand #big__screen__logo{
         display: none;
+    }
+
+    .register-li,.login-li{
+        display: none !important;
+    }
+    .sm-only-login-li{
+        display: inline-block !important;
+        background-color: #2663a5 !important;
+        border-radius: 30px !important;
+        border: none !important;
+
     }
     .navbar-brand #mobile__logo{
         height: 45px !important;
@@ -1246,6 +1263,7 @@ padding-left: 0px !important;
     }
 
     .mb__only{
+        display: inline-block !important;
         background-color:#2663a5;
         padding: 8px 43px;
         color: #fff;
@@ -2336,6 +2354,17 @@ padding-left: 0px !important;
     margin-left: 10px;
 }
 
+.sm-only-login-li{
+    display: inline-block !important;
+    background-color: #2663a5 !important;
+    border-radius: 30px !important;
+    border: none !important;
+    padding: 8px;
+    font-size: 16px !important;
+    font-weight: normal !important;
+
+}
+
 .navbar-brand #mobile__logo, .mb__only{
     display: inline-block;
 }
@@ -3262,6 +3291,32 @@ padding-left: 0px !important;
         margin-bottom: 0px;
 
     }
+ 
+    .mb__only{
+        display: none !important;
+    }
+
+    .sm-only-login-li{
+        display: none !important;
+    }
+
+    .signup-btn{
+        display: inline-block !important;
+        font-size: 12px;
+        padding: 6px 10px !important;
+        position: relative;
+        border-radius: 30px;
+        font-weight: bold;
+        bottom: 5px;
+        color: #fff;
+        top: 0px !important;
+    }
+    .signin-btn{
+        display: inline-block !important;
+    }
+
+
+ 
 
 .top__container{
         padding-left: 30px;
